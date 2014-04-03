@@ -1,0 +1,369 @@
+/* PRODUCT PAGE */
+td.vCSS_breadcrumb_td,
+td.vCSS_breadcrumb_td b {
+	color:#585858;
+}
+
+#leftnav {display:none;}
+#content_area {width:960px;}
+
+
+/* ------ BREADCRUMBS ------ */
+td.vCSS_breadcrumb_td a {
+	color: #585858;
+	font-weight: normal !important;
+}
+
+/* ------ PRODUCT TITLE ------ */
+font.productnamecolorLARGE.colors_productname {
+	display: block;
+	color: #585858;
+	font-size: 25px;
+	font-weight: 700;;
+	margin: 7px 0 0 5px;
+}
+
+/* ------ GENERAL PRICEBOX STYLES ------ */
+
+.colors_pricebox {
+	background: #eeeeee;
+	border-radius: 0;
+	padding: 0 0 15px 0;
+	margin-bottom: 15px;
+}
+
+/*Select and input borders*/
+.colors_pricebox select td, 
+.colors_pricebox input td {
+	border: 1px solid #999;
+}
+
+/* ------ FIRST PRICEBOX ------ */
+
+span + .colors_pricebox {
+	padding: 15px;
+	margin-bottom: 0;
+}
+
+/*Text styling*/
+span + .colors_pricebox td {
+	color: #686868;
+	font-size: 12px;
+}
+
+/*Product Code*/
+span.product_code_title, 
+span.product_code {
+	color: #a8a8a8;
+	font-size: 12px;
+	font-style: normal;
+}
+
+/*--- PRICES ---*/
+
+/*List Price and Text Only*/
+.colors_pricebox td > font.text.colors_text:first-child b {
+	color: #585858;
+}
+
+#options_table,
+#options_table + table,
+#options_table + script + br + table {
+	padding-left: 15px;
+}
+
+/*Our Price text*/
+.colors_pricebox font.text.colors_text b span,
+.colors_pricebox font.text.colors_text b {
+	color: #585858 !important;
+	font-size: 15px;
+	font-weight: normal !important;
+}
+/*Our Price price*/
+.colors_pricebox font.text.colors_text {
+	color: #585858;
+	font-size: 15px;
+}
+
+/*Sale Price & Text Only*/
+b font.pricecolor.colors_productprice {
+	color: #aa1f1f;
+	font-size: 15px;
+	font-weight: normal;
+}
+/*You Save text & price*/
+font.productnamecolor.colors_productname i,
+font.productnamecolor.colors_productname i b,
+font.productnamecolor.colors_productname i span {
+	color: #585858;
+	font-size: 11px;
+	font-weight: normal !important;
+	font-style: normal !important;
+}
+
+/* ------ SECOND PRICEBOX ------ */
+
+/*Heading*/
+br + .colors_pricebox > tbody > tr > td > table > tbody > tr:first-child {
+	background-color:#8c8c8c;
+}
+
+/*Heading - remove this if you need the corner images*/
+img[src*="OBox_Border_Left_Top_Opt.gif"], img[src*="OBox_Border_Right_Top_Opt.gif"] {display: none;}
+img[src*="Options_Text_Choose.gif"] {
+	margin-left: 7px;
+}
+/*Large label*/
+table#options_table font.colors_productname b {
+	border-bottom: none;
+	color:#585858;
+	font-weight: 700;
+	font-size: 13px;
+	font-style: normal;
+}
+
+/*Label text color*/
+.colors_pricebox table td {
+	color: #686868;
+}
+
+/* ------- DESCRIPTION BOX TABS --------- */
+
+/* TABS DEFAULT/UNSELECTED */
+span#Header_ProductDetail_ProductDetails_span,
+span#Header_ProductDetail_TechSpecs_span,
+span#Header_ProductDetail_ExtInfo_span,
+td#Header_ProductDetail_ProductDetails.vCSS_tab_unselected span#Header_ProductDetail_ProductDetails_span,
+td#Header_ProductDetail_TechSpecs.vCSS_tab_unselected span#Header_ProductDetail_TechSpecs_span,
+td#Header_ProductDetail_ExtInfo.vCSS_tab_unselected span#Header_ProductDetail_ExtInfo_span {
+	font: bold 14px/1.3 Arial, Helvetica, sans-serif !important;
+	padding: 8px 15px 7px;
+	display: inline-block;
+	background: #8c8c8c;
+	color: #fff;
+}
+
+/* TABS UNSELECTED HOVER */
+span#Header_ProductDetail_ProductDetails_span:hover,
+span#Header_ProductDetail_TechSpecs_span:hover,
+span#Header_ProductDetail_ExtInfo_span:hover,
+td#Header_ProductDetail_ProductDetails.vCSS_tab_unselected span#Header_ProductDetail_ProductDetails_span:hover,
+td#Header_ProductDetail_TechSpecs.vCSS_tab_unselected span#Header_ProductDetail_TechSpecs_span:hover,
+td#Header_ProductDetail_ExtInfo.vCSS_tab_unselected span#Header_ProductDetail_ExtInfo_span:hover {
+	color: #858585;
+	background: #eeeeee;
+}
+
+/* TABS SELECTED */
+td#Header_ProductDetail_ProductDetails span#Header_ProductDetail_ProductDetails_span,
+td#Header_ProductDetail_ProductDetails.vCSS_tab_selected span#Header_ProductDetail_ProductDetails_span,
+td#Header_ProductDetail_TechSpecs.vCSS_tab_selected span#Header_ProductDetail_TechSpecs_span,
+td#Header_ProductDetail_ExtInfo.vCSS_tab_selected span#Header_ProductDetail_ExtInfo_span {
+	background: #eeeeee;
+	color: #858585;
+} 
+
+/*Fix spacing*/
+tr td[background*="expand_tab_left.gif"] img {display: none;}
+tr td[background*="expand_tab_right.gif"] img {width: 7px;}
+
+
+/* ------ DESCRIPTION BOX ------ */
+
+/*Description container*/
+.colors_descriptionbox {
+	background: #eeeeee;
+	border: none;
+	border-radius: 0;
+	padding: 10px;
+}
+
+/*Text color*/
+.colors_descriptionbox table, 
+.colors_descriptionbox td {
+	color: #585858;
+	font-size: 13px;
+}
+
+/*Product features box only*/
+#ProductDetail_ProductDetails_div2 .colors_descriptionbox {
+	background: none;
+	border: none;
+}
+
+/* ------ RELATED / ACCESSORIES ------ */
+
+/*--HEADING--*/
+
+/*Background*/
+.colors_backgroundlight {
+	background: #8c8c8c;
+}
+
+/*Text*/
+.colors_lines_light font.productnamecolorSMALL.colors_productname b {
+	font-size: 15px;
+	color: #fff;
+	margin-left: 19px;
+	line-height: 48px;
+	font-weight: 400;;
+}
+
+
+/*--PRODUCT ROW--*/
+
+/*Row container*/
+td.v65-product-related-details-cell, /*Products related*/
+td.colors_background_main /*Accessories*/ {
+	border: none;
+	background: none;
+}
+
+/*Product title*/
+.v65-productDisplay a.productnamecolorsmall.colors_productname {
+	font-size: 12px;
+	color: #4d4d4d;
+	font-weight: 700;
+}
+
+/*Product Price ONLY*/
+.v65-productDisplay font.pricecolorsmall.colors_productprice {
+	font-weight: 400;;
+	font-size: 12px;
+	color: #585858;
+}
+
+/*Product "Our Price" text ONLY*/
+.v65-productDisplay font.smalltext.colors_text b span,
+.v65-productDisplay font.smalltext.colors_text b {
+	font-weight: 400;;
+	font-size: 12px;
+	color: #585858 !important;
+}
+
+/*Center product title and price*/
+td.v65-productDisplay-cell.v65-productName,
+td.v65-productDisplay-cell.v65-productAvailability {
+	text-align: left;
+}
+
+/* ------ RECENT HISTORY ------ */
+
+#v65-product-history-body td {
+	padding: 5px 0;
+}
+
+/*background color*/
+table#v65-product-history-body {
+	background: none;
+}
+
+/*Top and bottom border*/
+table#v65-product-history-body {
+	border-top: none;
+	border-bottom: none;
+	padding-bottom: 10px;
+}
+
+/*Product image max-width*/
+.historyitem_image img {
+	max-width: 170px; 
+} 
+
+/* PRODUCT TITLE*/
+.historyitem_productname a {
+	font-size: 12px;
+	color: #4d4d4d;
+	font-weight: 400; !important;
+}
+
+.historyitem_clearfromhistory {
+	padding-top: 5px;
+}
+
+/*PRODUCT PRICE*/
+.historyitem_productprice b font.pricecolor.colors_productprice {
+	font-weight: 400; !important;
+	font-size: 12px !important;
+	color: #AA1F1F;
+}
+
+/*--------- REVIEWS ---------*/
+
+#content_area td {
+	color:#585858;
+}
+
+#v65-product-reviews img {
+	vertical-align: middle;
+}
+
+/*"Average Customer Review" text*/
+#v65-product-reviews table > tbody > tr > td:first-child b {
+	font-size: 12px;
+	font-weight: 400;
+	color: #585858;
+}
+
+/*"5 of 5" text*/
+#v65-product-reviews table > tbody > tr > td:first-child > span {
+	font-size: 12px !important;
+	font-weight: 400 !important;
+	color: #585858;
+}
+
+/*"Total Reviews" text*/
+#v65-product-reviews table > tbody > tr > td > b {
+	font-size: 12px !important;
+	font-weight: 400 !important;
+	color: #585858;
+}
+
+/*"Write A Review" text*/
+#v65-product-reviews table > tbody > tr > td > nobr a {
+	font-size: 12px;
+	font-weight: 400;
+	color: #333;
+}
+
+/*COMMENT BOX -- Inherits Tabbed Description area styling*/
+td[width="100%"] table.colors_descriptionbox {
+	border: none;
+	background: #f5f5f5;
+}
+
+/*COMMENT BOX text styling*/
+td[width="100%"] table.colors_descriptionbox td {
+	color: #585858;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+/* * * * * * FIXES * * * * * */
+
+/*Removes spacing before breadcrumbs*/
+form#vCSS_mainform > img, 
+form#vCSS_mainform > br,
+td.vCSS_breadcrumb_td > img + br,
+td.vCSS_breadcrumb_td > b + br,
+td.vCSS_breadcrumb_td > b + br + img {
+	display: none;
+}
+
+/*OPTIONS TABLE*/
+#options_table tr > td:first-child br {display: none;}
+
+/*RELATED PRODUCTS/ACCESSORIES FIXES*/
+.colors_lines_light {background: none;}
+tr.v65-product-related-details-row > td, td.colors_background_main {padding: 5px;}
+table.colors_backgroundlight {display: block; margin-bottom: -1px;}
+table.colors_lines_light td.colors_backgroundlight {padding: 0;}
+
+/*HISTORY*/
+.colors_backgroundlight_dark {background: #eeeeee;}
+
+/*REVIEWS*/
+#v65-product-reviews table > tbody > tr > td:first-child {width: 270px !important;}
+#v65-product-reviews table > tbody > tr > td:first-child > span {position: static !important;}
+#v65-product-reviews table > tbody > tr > td:first-child > span > span {position: inherit !important; left: auto !important;}
+#vCSS_mainform + br {display: none;}

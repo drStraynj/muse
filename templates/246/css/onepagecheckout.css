@@ -1,0 +1,290 @@
+.pageWrap #content_area,
+.pageWrap.leftNavOn #content_area {
+	width: 920px;
+	float: none;
+	margin: 0 auto;
+}
+
+.pageWrap .content .leftNav {
+	display: none;
+}   
+
+#content_area #TotalsDivContainer {
+	float: none;
+	padding: 0 10px;
+}
+#content_area #TotalsDivContainer table {
+	width: 100%;
+	padding: 0;
+}
+
+/**************************
+*      CENTER TABLE       *
+**************************/
+
+form#v65-onepage-CheckoutForm {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 860px;
+}
+
+/**************************
+*       PAGE HEADING      *
+**************************/
+
+h2#v65-onepage-header {
+	color: #545454;
+	font-size: 23px;
+	font-weight: normal;
+	margin: 0 0 20px;
+	text-transform: uppercase;
+}
+
+h2#v65-onepage-header .loginHeaderWrapper {
+	color: #545454;
+	font-size: 12px;
+	text-transform: none;
+}
+
+h2#v65-onepage-header .loginHeaderWrapper a {
+	color: #545454;
+	text-decoration: underline;
+}
+
+/**************************
+*     HEADINGS IMAGES     *
+**************************/
+
+#v65-onepage-ContentTable .v65-onepage-headerShort {
+	background: #f7f7f8;
+	width: 460px;
+}
+
+/**************************
+*       LABEL TEXT        *
+**************************/
+
+td#v65-onepage-ordercomments-value, /*Comments label*/
+table#v65-onepage-ContentTable td, /*Label*/
+table#v65-onepage-ContentTable td font /*Asterisk*/ {
+	color: #545454;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+/**************************
+*    INPUTS & SELECTS     *
+**************************/
+
+table#v65-onepage-Detail td input[type="password"],
+table#v65-onepage-Detail td input[type="text"],
+table#v65-onepage-Detail td select {
+	background: #fff;
+	border: 1px solid #ddd;
+	font-family: Montserrat, sans-serif !important;
+	color: #545454;
+}
+
+/**********************************
+*    TABLE CHECKOUT SUM HEADING   *
+**********************************/
+
+/* Heading background-color */
+#table_checkout_cart0 #v65-onepage-cartsummary-header {
+	background: url(../images/template/leftnav-border.png) repeat-x 0 bottom;
+	padding-bottom: 5px;
+}
+
+/* Heading text */
+#table_checkout_cart0 #v65-onepage-cartsummary-label {
+	color: #545454;
+	font-size: 16px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+/* "Edit" text styling */
+#table_checkout_cart0 #v65-onepage-editcart {
+	color: #545454;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*******************************
+*    TABLE CHECKOUT SUM BKG    *
+*******************************/
+
+/* Order summary background color */
+#table_checkout_cart0 {
+	background: #f7f7f8 !important;
+	margin-top: 0 !important; /*Resets margin*/
+	width: 360px !important;
+	padding: 10px 15px;
+}
+
+/**************************
+*       CART DETAILS      *
+**************************/
+
+#v65-onepage-ShippingCostDetails td.v65-onepage-shippingcost-detail {
+	width: 220px;
+}
+
+#v65-onepage-ShippingCostDetails td.v65-onepage-shippingcost-detail[align="right"] {
+	text-align: left;
+	width: 90px;
+	text-indent: 36px;
+}
+
+/* All summary text the same? Use this and delete the next three sections */
+
+#table_checkout_cart0 #v65-onepage-ordersummary-header-row td,
+#table_checkout_cart0 #v65-onepage-ordersummary-items td,
+#table_checkout_cart0 b.v65-onepage-shippingcost-label,
+#table_checkout_cart0 b.v65-onepage-shippingcost-amount,
+#table_checkout_cart0 #v65-onepage-ShippingCostDetails .carttext {
+	color: #545454 !important;
+	font-size: 12px !important;
+	font-weight: normal !important;
+}
+
+#table_checkout_cart0 #v65-onepage-ordersummary-header-row td.v65-onepage-ordersummary-header {
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+#content_area #v65-onepage-ShippingCostDetails {
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 15px;
+	width: 235px;
+}
+
+/**************************
+*    BORDER ABOVE TOTAL   *
+**************************/
+
+#table_checkout_cart0 #v65-onepage-summary-total-line, 
+#table_checkout_cart0 .v65-onepage-summary-total-line-cell {
+	border-bottom: 1px solid #dedede;
+}
+
+/**************************
+*    	 TOTAL TEXT       *
+**************************/
+
+span#TotalsTotalTD {
+	color: #545454;
+	font-size: 22px;
+	font-weight: normal !important;
+	font-family: Montserrat, sans-serif;
+	display: block;
+	margin-top: 10px;
+}
+
+/**************************
+*    	 OTHER TEXT       *
+**************************/
+
+/* Gift card text */
+td#v65-apply-gift-newCell a[style="color:#0000CC;font-weight:bold;"] {
+	color: #545454 !important;
+	font-size: 12px;
+	font-weight: normal !important;
+}
+
+/* Order Comments text */
+#v65-onepage-ordercomments-row #v65-onepage-ordercomments-value {
+	color: #545454;
+	font-size: 12px;
+	text-indent: 3px;
+}
+
+#v65-onepage-ordercomments-row #v65-onepage-ordercomments-value textarea {
+	margin-top: 5px;
+}
+
+/* Textarea border and background */
+textarea#v65-onepage-ordercomments-input {
+	background: #fff !important;
+	border: 1px solid #d5d5d5 !important;
+}
+
+/* * * * * * FIXES * * * * * */
+
+/* Override width and margin for left side container */
+#content_area #v65-onepage-ContentTable {
+	margin: 0;
+	border-spacing: 0;
+}
+
+/* Heading image */
+.v65-onepage-headerShort img {display: block;}
+
+/* Cart Summary redundant bkg colors */
+#table_checkout_cart0 #v65-onepage-CartSummary,
+#table_checkout_cart0 #v65-onepage-ordersummary-items {
+	background: none;
+}
+
+/* --- Fixes Alignment of all fields on checkout --- */
+
+/* Container for Subtotal, Shipping, Tax */
+#content_area #TotalsDivContainer {float: none;}
+
+/* Shipping Information label alignment */
+td#v65-onepage-ShippingParent {padding-left: 0 !important;}
+#v65-onepage-Shipping td.v65-onepage-shipping-label-cell div {text-align: right !important;}
+#v65-onepage-Shipping td.v65-onepage-shipping-label-cell {width: 105px;}
+#ship-to-options-table div[align="right"] {text-align: right;}
+
+/* "My Saved Billing Addresses" */
+#v65-onepage-saved-billing-table font[style*="font-weight: bold;"] {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal !important;
+	line-height: 14px !important;
+	padding-right: 2px;
+	text-align: right;
+	vertical-align: top;
+	width: 91px;
+}
+
+/* "My Saved Billing Addresses" select */
+select[onchange*="Choose_My_Saved_Billing"] {width: 175px;}
+
+/* Credit Cart label and input alignment */
+#content_area td.v65-payment-details-label-cell[width="39%"] {width: 105px;}
+
+#content_area #savedPayment,
+#content_area td.v65-payment-details-label-cell[width="39%"] + td[width="61%"] {
+	width: auto;
+}
+
+table#v65-onepage-registration td {white-space: nowrap;}
+
+/* Override width and margin for left side container */
+#content_area #v65-onepage-ContentTable {
+	margin: 0;
+	border-spacing: 0;
+}
+
+/* Heading image */
+.v65-onepage-headerShort img {display: block;}
+
+/* Cart Summary redundant bkg colors */
+#table_checkout_cart0 #v65-onepage-CartSummary,
+#table_checkout_cart0 #v65-onepage-ordersummary-items {background: none;}
+
+
+/* --- Gives Shipping Drop-Down Static Width and Aligns with Rest of Inputs --- */
+#v65-onepage-ShippingCostHeader + tr,
+#v65-onepage-ShippingCostHeader + tr > td:first-child {display: block;}
+#v65-onepage-ShippingCostHeader + tr > td:first-child div[align="center"] {text-align: left;}
+#ship-to-options-table td[style] {padding: 5px 0;}
+#DisplayShippingSpeedChoicesTD select {
+    padding: 6px 4px;
+    width: 172px;
+    margin-left: 107px;
+}

@@ -1,0 +1,283 @@
+/* nav spans entire width */
+#tbl0 {width: 100%;}
+/* hides bullet images */
+.topNav .menu td img, .leftNav .menu td img {display: none !important;}
+.topNav .menu table, .leftNav .menu table {margin: 0; padding: 0;}
+
+/* Allows anchors to span across table */
+.topNav .mmenucontainer + .mmenucontainer > .milonictable tbody,
+.topNav .mmenucontainer + .mmenucontainer > .milonictable tr,
+.topNav .mmenucontainer + .mmenucontainer > .milonictable td,
+.topNav .mmenucontainer + .mmenucontainer > .milonictable .milonictable {
+	display: block;
+}
+
+/* SEPERATORS FROM MENU_POPOUT_STYLES.JS */
+#tbl0 td[id*="sep"] {
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+    /* width: 2px !important; */
+    overflow: hidden;
+}
+
+.topNav .menu > script + div > table > tbody > tr > td {
+	width: .1%;
+}
+
+/*****************************
+* *    	   TOP NAV 	 	   * *
+*****************************/
+
+/* * * * * POPOUT MENUS * * * * */
+
+/* top level */
+.topNav .menu td.nav a, 
+.topNav .menu td.nav_hover a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 50px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+.topNav .menu td.nav_hover a, 
+.topNav .menu td.nav_selected a {
+	/* inherited by nav_hover, subnav_hover */
+}
+
+/* TARGET DROPDOWNS BACKGROUND */
+.topNav .mmenucontainer + .mmenucontainer > .milonictable {
+	background: #2a2d2f;
+	display: block;
+	padding: 8px 14px !important;
+	max-width: 200px;
+	min-width: 120px;
+}
+
+/* Fade subnav in */
+.topNav .mmenucontainer + .mmenucontainer[style*="hidden;"] {opacity: 0;}
+
+.topNav .mmenucontainer + .mmenucontainer[style*="visible;"] {
+	opacity: 1;
+	-webkit-transition: opacity 0.1s ease-in;
+	-moz-transition: opacity 0.1s ease-in;
+	-o-transition: opacity 0.1s ease-in;
+	-ms-transition: opacity 0.1s ease-in;
+	transition: opacity 0.1s ease-in;
+}
+
+/* sub level */
+.topNav .menu td.subnav a, 
+.topNav .menu td.subnav_hover a {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.3;
+	padding: 4px 0;
+	text-align: left;
+	text-transform: none;
+}
+.topNav .menu td.subnav_hover a, 
+.topNav .menu td.subnav_selected a {
+	/* subnav_hover only */
+}
+
+
+/* * * * * LIST ITEMS * * * * */
+
+.topNav ul {
+	list-style: none; 
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	width: 100%;
+	font-size: 0;
+}
+
+.topNav ul:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+
+.topNav li {
+	display: inline-block;
+}
+
+.topNav li a {
+	letter-spacing: normal;
+	color: #b4b9bf;
+	display: block;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 50px;
+	padding: 0 16px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+.topNav li a:hover,
+.topNav li.nav_selected a {
+	color: #fff !important;
+	text-decoration: none;
+	background: #2a2d2f !important;
+}
+
+/*****************************
+* *    	   LEFT NAV 	   * *
+*****************************/
+ 
+.leftNav script + table {width: 100%;}
+
+/* * * * * POPOUT MENUS * * * * */
+
+/* SELECT THE FIRST TABLE ONLY */
+.leftNav .menu script + div > table:first-child {width: 100%;}
+
+/* top level */
+.leftNav .menu > .mmenucontainer td.nav a, 
+.leftNav .menu > .mmenucontainer td.nav_hover a {
+	/* inherited by nav, nav_hover, subnav, subnav_hover */
+	text-decoration: none;
+	white-space: normal;
+	display: block;
+	width: 100%;
+	font-size: 13px;
+	font-weight: 400;
+	margin: 4px 0;
+}
+.leftNav .menu > .mmenucontainer td.nav_hover a, 
+.leftNav .menu > .mmenucontainer td.nav_selected a {
+	text-decoration: underline;
+}
+
+/* TARGET DROPDOWNS BACKGROUND */
+.leftNav .mmenucontainer + .mmenucontainer > .milonictable {
+	background: #2a2d2f;
+	display: block;
+	padding: 8px 14px !important;
+	max-width: 200px;
+	min-width: 120px;
+	color: #b4b9bf;
+}
+
+/* Fade subnav in */
+.leftNav .mmenucontainer + .mmenucontainer[style*="hidden;"] {opacity: 0;}
+
+.leftNav .mmenucontainer + .mmenucontainer[style*="visible;"] {
+	opacity: 1;
+	-webkit-transition: opacity 0.1s ease-in;
+	-moz-transition: opacity 0.1s ease-in;
+	-o-transition: opacity 0.1s ease-in;
+	-ms-transition: opacity 0.1s ease-in;
+	transition: opacity 0.1s ease-in;
+}
+
+/* sub level */
+.leftNav .menu > .mmenucontainer td.subnav a, 
+.leftNav .menu > .mmenucontainer td.subnav_hover a {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.3;
+	padding: 4px 0;
+	text-align: left;
+	text-transform: none;
+}
+.leftNav .menu > .mmenucontainer td.subnav_hover a, 
+.leftNav .menu > .mmenucontainer td.subnav_selected a {
+	/* subnav_hover only */
+}
+
+/* * * * * TREE SMART MENUS * * * * */
+
+/* SELECT THE FIRST TABLE ONLY - SMART TREE */
+.leftNav .menu script + table {width: 100%;}
+ 
+/* top level */
+.leftNav .menu td.nav a, 
+.leftNav .menu td.nav_hover a {
+	/* inherited by nav, nav_hover, subnav, subnav_hover */
+	text-decoration: none;
+	white-space: normal;
+	display: block;
+	width: 100%;
+	font-size: 13px;
+	font-weight: 400;
+	padding: 3px 0;
+}
+.leftNav .menu td.nav_hover a, 
+.leftNav .menu td.nav_selected a {
+	text-decoration: underline;
+}
+
+/* sub level */
+.leftNav .menu td.subnav a, 
+.leftNav .menu td.subnav_hover a {
+	/* inherited by subnav, subnav_hover */
+	padding-left: 20px;
+	font-size: 12px;
+}
+.leftNav .menu td.subnav_hover a, 
+.leftNav .menu td.subnav_selected a {
+	/* subnav_hover only */
+}
+
+/* * * * * LIST ITEMS * * * * */
+
+.leftNav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.leftNav li {
+}
+
+.leftNav li a {
+	display: block;
+	width: 100%;
+	font-size: 12px;
+	color: #484848;
+	font-weight: normal;
+	padding: 4px 2px;
+}
+
+.leftNav li a:hover, 
+.leftNav li.nav_selected a {
+	text-decoration: underline;
+}
+
+#display_menu_1 .nav a {color:#b4b9bf;}
+#display_menu_1 .nav_hover a {color:#ffffff;}
+#display_menu_1 .nav {background-color:transparent;}
+#display_menu_1 .nav_hover {background-color:transparent;}
+#display_menu_2 .nav a {color:inherit;}
+#display_menu_2 .nav_hover a {color:inherit;}
+#display_menu_2 .nav {background-color:transparent;}
+#display_menu_2 .nav_hover {background-color:transparent;}
+#display_menu_3 .nav a {color:inherit;}
+#display_menu_3 .nav_hover a {color:inherit;}
+#display_menu_3 .nav {background-color:transparent;}
+#display_menu_3 .nav_hover {background-color:transparent;}
+#display_menu_4 .nav a {color:inherit;}
+#display_menu_4 .nav_hover a {color:inherit;}
+#display_menu_4 .nav {background-color:transparent;}
+#display_menu_4 .nav_hover {background-color:transparent;}
+#display_menu_5 .nav a {color:inherit;}
+#display_menu_5 .nav_hover a {color:inherit;}
+#display_menu_5 .nav {background-color:transparent;}
+#display_menu_5 .nav_hover {background-color:transparent;}
+#display_menu_6 .nav a {color:inherit;}
+#display_menu_6 .nav_hover a {color:inherit;}
+#display_menu_6 .nav {background-color:transparent;}
+#display_menu_6 .nav_hover {background-color:transparent;}
+#display_menu_7 .nav a {color:inherit;}
+#display_menu_7 .nav_hover a {color:inherit;}
+#display_menu_7 .nav {background-color:transparent;}
+#display_menu_7 .nav_hover {background-color:transparent;}
+#display_menu_8 .nav a {color:inherit;}
+#display_menu_8 .nav_hover a {color:inherit;}
+#display_menu_8 .nav {background-color:transparent;}
+#display_menu_8 .nav_hover {background-color:transparent;}

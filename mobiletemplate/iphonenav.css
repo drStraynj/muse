@@ -1,0 +1,506 @@
+body {
+background:#FFFFFF none repeat scroll 0 0;
+color:#000000;
+font-family:Arial, Gadget, sans-serif;
+margin:0;
+overflow:auto;
+font-size:11px;
+}
+body > h1 {
+background:#7388A5 url(/mobile/iPhoneToolbar.png) repeat-x scroll 0 0;
+border-bottom:1px solid #3F4E63;
+color:#FFFFFF;
+font-size:14px;
+font-weight:bold;
+line-height:20px;
+margin:0;
+padding:10px;
+text-align:center;
+text-shadow:0 -1px 0 rgba(0, 0, 0, 0.6);
+}
+.button {
+background:transparent none repeat scroll 0 0;
+border-width:0 8px;
+color:#FFFFFF;
+font-size:12px;
+font-weight:bold;
+height:28px;
+line-height:28px;
+padding:0;
+position:absolute;
+right:6px;
+text-decoration:none;
+text-shadow:0 -1px 0 rgba(0, 0, 0, 0.6);
+top:7px;
+}
+#homeButton {
+border-width:0 8px 0 14px;
+display:none;
+left:6px;
+right:auto;
+top:6px;
+}
+.goButton {
+}
+body > div, body > form, body > ul {
+display:none;
+left:0;
+margin:0;
+min-height:418px;
+padding:0;
+position:absolute;
+top:41px;
+width:100%;
+}
+body > [selected="true"] {
+display:block;
+}
+body > ul > li {
+background:transparent url(/mobile/iPhoneArrow.png) no-repeat scroll right center;
+border-bottom:1px solid #E0E0E0;
+font-size:18px;
+font-weight:bold;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0;
+padding:0;
+/*line-height: 13px;*/
+}
+
+body > div > li {
+background:transparent url(/mobile/iPhoneArrow.png) no-repeat scroll right center;
+border-bottom:1px solid #E0E0E0;
+font-size:20px;
+font-weight:bold;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0;
+padding:0;
+
+}
+body > ul > li > a {
+color:inherit;
+display:block;
+padding:8px 32px 8px 8px;
+text-decoration:none;
+vertical-align:bottom;
+line-height:24px;
+}
+
+.panel {
+background:#C8C8C8 url(/mobile/pinstripes.png) repeat scroll 0 0;
+padding:10px;
+}
+.dialog {
+background:rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+min-height:468px;
+padding:0;
+position:absolute;
+text-align:right;
+top:0;
+width:100%;
+z-index:2;
+}
+fieldset {
+background:#7388A5 url(/mobile/iPhoneToolbar.png) repeat-x scroll 0 0;
+border:medium none;
+margin:0;
+padding:10px 6px;
+width:100%;
+}
+fieldset > h1 {
+color:#FFFFFF;
+font-size:20px;
+font-weight:bold;
+margin:0 10px;
+padding:0;
+text-align:center;
+text-shadow:0 -1px 0 rgba(0, 0, 0, 0.6);
+}
+label {
+color:#BBBBBB;
+font-size:14px;
+margin:14px 0 0 6px;
+position:absolute;
+}
+input {
+font-size:16px;
+font-weight:normal;
+margin:6px 0 0;
+padding:2px;
+/*width:100%;*/
+}
+#header-home
+{
+	background:url(/mobile/images/header_normal.jpg);
+	background-repeat:no-repeat;
+	height:79px;
+}
+#content-sale
+{
+	margin:0px;
+	padding:0px;
+}
+
+.sale-link
+{
+	display:block;
+	margin:0px;
+	padding:10px;
+	padding-bottom:6px;
+	border-bottom:#E5E5E5 1px solid;
+	font-family:Arial, Gadget, sans-serif;
+	color:#111;
+	background:url(/mobile/iphonearrow.png) no-repeat scroll right center;
+}
+
+.sale-link-img
+{
+	display:inline-block;
+	vertical-align:middle;
+	width:51px;
+	height:100%;
+}
+
+.sale-link-text
+{
+	display:inline-block;
+	vertical-align:top;
+	margin:0px;
+	margin-left:2px;
+	margin-top:-14px;
+	padding:0px;
+	width:235px;
+}
+
+.sale-link-text-select
+{
+	width:230px;
+}
+.sale-link-text p
+{
+	padding:0px;
+	margin:0px;
+	/*line-height:19px;*/
+	line-height:15px;
+}
+.sale-link-text h4 
+{
+	line-height:16px;
+}
+.our-price
+{
+	font-size:12px;
+	color:#999;
+}
+
+.sale-price
+{
+	font-size:12px;
+	color:#F00;
+}
+
+#content-sale-details
+{
+	margin:0px;
+	padding:10px;
+	padding-right:5px;
+	padding-bottom:6px;
+	border-bottom:#E5E5E5 1px solid;
+	font-size:11px;
+	color:#111;
+	line-height:15px;
+}
+
+#content-sale-details #list
+{
+	margin:0px;
+	padding:0px;
+	margin-bottom:5px;
+	background-repeat:no-repeat;
+}
+
+#content-sale-details #list img
+{
+	margin-right:9px;
+	padding-bottom:5px;
+}
+
+#content-sale-details p
+{
+	margin:0px;
+	padding:0px;
+	line-height:19px;
+}
+
+#content-sale-details h4
+{
+	margin-bottom:0px;
+}
+
+#product-code
+{
+	font-size:10px;
+	text-align:left;
+	color:#999999;
+}
+
+#content-sale-details form
+{
+	margin-top:10px;
+	padding-left:60px;
+	line-height:20px;
+}
+
+#content-sale-details #firstbox
+{
+	width:200px;
+}
+
+#content-sale-details #secondbox
+{
+	width:200px;
+}
+
+#content-sale-details form p
+{
+	margin:0px;
+	padding:0px;
+	padding-top:7px;
+	line-height:8px;
+}
+
+#btnaddtocart
+{
+	background-image:url(/v/vspfiles/mobiletemplate/add_to_cart.gif);
+	background-position:center;
+	border:none;
+	width:84px;
+	height:22px;
+}
+
+#availabillity-text
+{
+	font-size:10px;
+	text-align:left;
+	color:#999999;
+}
+
+#content-sale-description
+{
+	margin:0px;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:6px;
+	font-size:11px;
+	color:#666;
+	line-height:12px;
+	font-family:Arial, Gadget, sans-serif;
+}
+#content-sale-description p
+{
+	margin:0px;
+	padding:2px;
+	padding-top:2px;
+	line-height:13px;
+	font-family:Arial, Gadget, sans-serif;
+	font-size:11px;
+}
+#content-sale-description ul
+{
+	font-size:11px;
+	font-family:Arial, Gadget, sans-serif;
+}
+#content-sale-description li
+{
+	margin-left:0px;
+}
+
+#bottom
+{
+	
+}
+
+#bottom-home
+{
+	height:24px;
+	border-top:#E5E5E5 1px solid;
+	padding:7px;
+	padding-top:11px;
+
+}
+
+#bottom-home a
+{
+	font-size:11px;
+	font-family:Arial, Gadget, sans-serif;
+	color:#a6a6a6;
+}
+
+a
+{
+	text-decoration:none;
+}
+
+img
+{
+	border:0;
+	display:inline;
+}
+#content-newsletter
+{
+	margin:auto 0;
+	padding:20px;
+	text-align:left;
+}
+
+#content-newsletter form
+{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:3px;
+	padding:0px;
+	text-align:center;
+}
+
+#content-newsletter p
+{
+	line-height:15px;
+	padding:0px;
+	padding-bottom:6px;
+	margin:0px;
+}
+#newsletter-address
+{
+	 width:230px;
+	 height:23px;
+	 text-align:center;
+	 font-size:15px;
+	 margin:auto;
+}
+
+#newsletter-signup
+{
+	  width:240px;
+	  height:32px;
+	  font-size:15px;
+	  margin:auto;
+}
+#gomainsite
+{
+	float:right;
+	padding-right:20px;
+	padding-top:3px;
+	
+}
+#smallgomainsite
+{
+	float:right;
+	padding-right:20px;
+	padding-top:4px;
+	font-size:9px;
+	
+}
+#poweredby
+{
+	font-size:10px;
+	font-weight:normal;
+	padding-top:2px;
+	font-style:italic;
+	padding-left:5px;
+	
+}
+#copyright
+{
+	float:left;
+	padding-left:5px;
+	margin-top:-4px;
+}
+#smallcopyright
+{
+	float:left;
+	padding-left:5px;
+	margin-top:-3px;
+	font-size:9px;
+}
+#emaildiv
+{
+	padding-left:15px;
+	padding-right:15px;
+	line-height:20px;
+}
+.emailtext
+{
+	 width:270px;
+	 height:16px;
+	 font-size:12px;
+	 margin:auto;
+	 padding:1;
+ 
+}
+.emailbutton
+{
+	 width:200px;
+	 margin-left:50px;
+}
+.optioninput
+{
+	font-size:10px;
+	height:12px;
+	width:115px;
+	float:right;
+	padding:0;
+	margin-top:0px;
+}
+.radioheadertext
+{
+	font-size:12px;
+	line-height:18px;
+	padding-top:8px;
+	
+}
+.radiotext
+{
+	font-size:11px;
+	padding-left:5px;
+	line-height:12px;
+	margin-right:5px;
+	margin-top:0px;
+	margin-bottom:0px;
+	
+}
+.radiogroup
+{
+	padding-top:0px;
+	padding-bottom:6px;
+}
+.myalert
+{
+	/*background:yellow; */
+	color:black; 
+	/*position:absolute;*/ 
+	padding:0px;
+	/*border:solid 2px black;*/
+	/*height:80px; */
+	width:200px; 
+	/*float:left; */
+}
+
+
+.colors_productname 
+{
+	font-size:12px;
+	line-height:18px;
+	font-weight:bold;
+	font-style:italic;
+}
+.button div
+{
+background-image:url("/v/vspfiles/mobiletemplate/nav_cart.png");
+background-position:left center;
+background-repeat:no-repeat;
+padding-left:26px;
+width:60px;
+}

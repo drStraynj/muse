@@ -1,0 +1,115 @@
+/**************************
+*       BREADCRUMBS       *
+**************************/
+#divWaitModal + table > tbody > tr:first-child a, /*Targets text*/
+#divWaitModal + table > tbody > tr:first-child b /*Targets greater-than symbol*/ {
+	color: #e9616e;
+	font:400 12px 'Source Sans Pro', Arial, Sans-Serif;
+}
+#divWaitModal + table > tbody > tr:first-child a:hover {
+	text-decoration: underline;
+}
+/*****************************
+*   WHOLE SUB CAT CONTAINER  *
+*****************************/
+/*Set container's background or border*/
+.colors_backgroundneutral {
+	background: none; /*Overrides default*/
+	border-bottom:1px solid #dedede;
+	display:block;
+	margin:5px 0 15px 0;
+}
+/*****************************
+*     	    HEADING          *
+*****************************/
+/* Heading background */
+table.colors_backgroundlight {
+	background: none;
+	width: 100%;
+	border-bottom: 1px solid #dedede;
+}
+/* Heading text styling */
+table.colors_backgroundlight > tbody > tr > td:first-child b {
+	color: #545454;
+	display: block;
+	font:700 13px/28px 'Source Sans Pro', Arial, Sans-Serif;
+	text-transform: uppercase;
+	text-indent:4px;
+}
+/*****************************
+*        CATEGORY LINKS      *
+*****************************/
+/* Category links container (excludes heading container) */
+/* Use for background and padding */
+table.colors_backgroundlight + table {
+	padding:10px 15px;
+}
+a.subcategory_link {
+	font:600 12px/20px 'Source Sans Pro', Arial, Sans-Serif;
+	color:#e9616e;
+}
+a.subcategory_link:hover {
+	text-decoration: underline;
+}
+/*****************************
+*       CATEGORY STYLES      *
+*****************************/
+/* Product Title */
+table.v65-productDisplay a.productnamecolor,
+table.v65-productDisplay .productnamecolor {
+	color: #545454;
+	font:600 13px 'Source Sans Pro', Arial, Sans-Serif;
+	text-transform: uppercase;
+}
+table.v65-productDisplay a.productnamecolor:hover,
+table.v65-productDisplay .productnamecolor:hover {
+	color:#e9616e;
+	text-decoration: none;
+}
+table.v65-productDisplay font.text.colors_text, /*Our Price: $0.00*/
+table.v65-productDisplay font.text.colors_text b /*Our Price*/ {
+	color: #999999;
+	font:400 12px 'Source Sans Pro', Arial, Sans-Serif !important;
+}
+table.v65-productDisplay font.pricecolor.colors_productprice, table.v65-productDisplay font.pricecolor.colors_productprice font.text.colors_text b, table.v65-productDisplay font.pricecolor.colors_productprice > font > b {
+	color: #d21c1c;
+	font:400 14px 'Source Sans Pro', Arial, Sans-Serif !important;
+}
+/* You Save $0.00 */
+table.v65-productDisplay font.productnamecolor.colors_productname i b {
+	color: #999999;
+	font:400 11px 'Source Sans Pro', Arial, Sans-Serif;
+	text-transform: none;
+}
+/* Description */
+table.v65-productDisplay img + br + font.text.colors_text, /*Single rows / Select / Checkboxes / List*/
+table.v65-productDisplay td[valign="top"] > font.text.colors_text /*Grid / Lightweight Grid*/ {
+	color: #545454;
+	font:400 12px 'Source Sans Pro', Arial, Sans-Serif;
+}
+/* * * * * * FIXES * * * * * */
+
+table.colors_backgroundlight + table td, /*Default padding of table containing subcat links*/
+#divWaitModal + table > tbody > tr:first-child td /*Breadcrumb spacing*/ {
+	padding: 0 0 0 2px;
+}
+
+/* Checkbox product display mode */
+a.productnamecolor.colors_productname + img {display: none;} /*Excess spacing to left of product name*/
+
+form#MainForm > input[name="Cat"] + table td[valign="bottom"][rowspan="2"] {
+	vertical-align: top;
+	padding-top: 5px;
+}
+
+form#MainForm > input[name="Cat"] + table > tbody > tr > td,
+form#MainForm > input[name="Cat"] + table td[valign="bottom"][rowspan="2"],
+form#MainForm > input[name="Cat"] + table td[align="right"] {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+table.colors_backgroundlight > tbody > tr > td > img, /*Heading images*/
+.colors_lines_light, .colors_lines_light + .colors_backgroundneutral  /*Lines below heading*/ {
+	display: none;
+}

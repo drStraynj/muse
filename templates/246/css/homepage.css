@@ -1,0 +1,113 @@
+/*Hides unnecessary <br> tags above Featured Products*/
+#content_area br {display: none;}
+/*<br>'s within featured products*/
+#content_area a.productnamecolor.colors_productname + br,
+#content_area a.productnamecolor.colors_productname + br + div br {display: none;}
+
+/*****************************
+* *   	   OVERRIDES	   * *
+******************************/
+
+.content {
+	margin: 0 auto;
+	width: 1280px;
+}
+
+.pageWrap #content_area,
+.pageWrap.leftNavOn #content_area {
+	width: 1280px;
+	float: none;
+}
+
+.pageWrap .content .leftNav {
+	display: none;
+}
+
+.pageWrap {
+	padding-bottom: 70px;
+}
+
+.compWrap {
+	min-width: 1280px;
+}
+
+/*****************************
+* *   FEATURED PRODUCTS    * *
+******************************/
+
+/* Targets featured products container */
+#content_area table[width="96%"] > tbody > tr > td > .v65-productDisplay > tbody > tr > td {
+	display: block;
+}
+
+#content_area table[width="96%"],
+#content_area table[width="96%"] table {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#content_area table[width="96%"] td {
+	padding: 0;
+    color: #999;
+}
+
+#content_area table[width="96%"] {
+	width: 1002px;
+}
+
+#content_area table[width="96%"] td b {font-weight: normal;}
+
+td[background$="Grid_Divider_Vertical.gif"], /*Removes vertical divider*/
+td[background$="Grid_Divider_Horizontal.gif"] {/*Removes vertical divider*/
+	display: none;}
+	
+/* Product Images */
+table.v65-productDisplay a > img {}
+
+table.v65-productDisplay b {font-weight: normal;}
+
+/* Center Featured Products Text */
+a.productnamecolor.colors_productname,
+font.pricecolor.colors_productprice,
+font.text.colors_text {
+	display: block;
+	text-align: center;
+}
+font.pricecolor.colors_productprice font.text.colors_text {display: inline;}
+
+/* Name */
+a.productnamecolor.colors_productname {
+	color: #545454;
+	font-weight: normal;
+}
+
+/* Our Price TEXT */
+.v65-productDisplay .product_productprice b,
+.v65-productDisplay .product_productprice,
+.v65-productDisplay .product_productprice span,
+.v65-productDisplay .product_productprice font,
+.v65-productDisplay .product_productprice div,
+.v65-productDisplay .product_dealprice b,
+.v65-productDisplay .product_dealprice,
+.v65-productDisplay .product_dealprice span,
+.v65-productDisplay .product_dealprice font,
+.v65-productDisplay .product_dealprice div {
+	color: #999;
+	font-weight: normal;
+}
+
+/* Sale PRICE/TEXT / Our Price PRICE */
+.v65-productDisplay .product_saleprice b,
+.v65-productDisplay .product_saleprice,
+.v65-productDisplay .product_saleprice span,
+.v65-productDisplay .product_saleprice font,
+.v65-productDisplay .product_saleprice div {
+	color: #999;
+	font-weight: normal;
+}
+
+img[src$="/Icon_FreeShipping_Small.gif"] {
+    display: block;
+    margin: 0 auto;
+}

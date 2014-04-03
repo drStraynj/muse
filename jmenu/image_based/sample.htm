@@ -1,0 +1,78 @@
+<HTML>
+
+
+<!--
+
+	-QuickGuide, Customizing QuickMenu Pro...
+
+	   To get started open 'sample_settings.js' (located in this folder) in a text editor, 
+	   (notepad or similar is preferred) and modify the settings to customize your menu. 
+	   View changes by opening sample.htm in a browser.
+
+	   Copy and paste the statements below directly after the body tag of each HTML page you 
+	   wish to contain the menu.
+
+-->
+
+
+
+<body bgcolor="#FFFFFF" marginwidth="10" marginheight="10">
+
+
+
+<!--***************  START - Copy data below this line.     ***********************-->
+
+
+
+<!-- QuickMenu Pro, Copyright (c) 1998-2003, OpenCube Inc., All Rights Reserved. 
+     Visit www.opencube.com for current QuickMenu Pro downloads and information. -->
+
+<script language="JavaScript1.2">dqm__codebase = "" //script folder location</script>
+<script language="JavaScript1.2" src="sample_settings.js"></script>
+<script language="JavaScript1.2" src="dqm_loader.js"></script>
+
+
+
+<!--***************   END - Copy data above this line.      ***********************-->
+
+
+
+<span style='font-family:Verdana; font-size:12px;'>View the source of this HTML page for additional help with page integration.</span>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p align="center">
+
+
+
+<!--
+  
+   Each sub menu group (defined in the 'sample_settings.js" file) can be attached to any image 
+   on the HTML page. To attach sub menus to an image, paste the following line within any 'IMG' tag.
+
+   name="menu0" id="menu0" onmouseover="showMenu(event)" onmouseout="hideMenu(event)"    
+
+   Change the name=menu0 and id=menu0 ids to match the index number of the menu group, see the
+   sample image tags below for an example.
+
+   Note: When using a main menu image as a hyperlink, an HREF ('<a href=...') tag must surround 
+   the image tag plus the link must be specified in the data file using the 'dqm__url' parameter. 
+   This redundancy is required for complete cross browser functionality.
+
+
+--> 
+
+
+
+<img 
+src="sample_images/quickmenu.gif" width="75" height="22" name="menu0" id="menu0" onmouseover="showMenu(event)" onmouseout="hideMenu(event)"><img 
+src="sample_images/products.gif" width="65" height="22" name="menu1" id="menu1" onmouseover="showMenu(event)" onmouseout="hideMenu(event)"><img 
+src="sample_images/downloads.gif" width="76" height="22" name="menu2" id="menu2" onmouseover="showMenu(event)" onmouseout="hideMenu(event)"><img 
+src="sample_images/contact.gif" width="55" height="22" name="menu3" id="menu3" onmouseover="showMenu(event)" onmouseout="hideMenu(event)">
+
+
+</p>
+</body>
+</HTML>
