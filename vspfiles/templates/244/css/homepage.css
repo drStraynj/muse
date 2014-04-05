@@ -1,0 +1,101 @@
+/*Hides unnecessary <br> tags above Featured Products*/
+#content_area br {display: none;}
+#content_area .homepage br {display: block;}
+/*<br>'s within featured products*/
+#content_area a.productnamecolor.colors_productname + br,
+#content_area a.productnamecolor.colors_productname + br + div br {display: none;}
+
+/*****************************
+* *   	   OVERRIDES	   * *
+******************************/
+
+.content {
+	margin: 4px auto;
+}
+
+.pageWrap #content_area,
+.pageWrap.leftNavOn #content_area {
+	width: 1000px;
+	float: none;
+}
+
+.pageWrap .content .leftNav {
+	display: none;
+}
+
+/*****************************
+* *   FEATURED PRODUCTS    * *
+******************************/
+
+/* Targets featured products container */
+#content_area table[width="96%"] > tbody > tr > td > .v65-productDisplay > tbody > tr > td {
+	display: block;
+}
+
+#content_area table[width="96%"],
+#content_area table[width="96%"] table {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#content_area table[width="96%"] td {
+	padding: 0;
+	color: #484848;
+}
+
+img[src$="/Icon_FreeShipping_Small.gif"] {
+    display: block;
+    margin: 0 auto;
+}
+
+td[background$="Grid_Divider_Vertical.gif"], /*Removes vertical divider*/
+td[background$="Grid_Divider_Horizontal.gif"] {/*Removes vertical divider*/
+	display: none;}
+	
+/* Product Images */
+table.v65-productDisplay a > img {}
+
+/* Center Featured Products Text */
+a.pricecolor.colors_productprice, /*Email better price*/
+a.productnamecolor.colors_productname,
+font.pricecolor.colors_productprice,
+font.text.colors_text {
+	display: block;
+	text-align: center;
+}
+font.pricecolor.colors_productprice font.text.colors_text {display: inline;}
+
+.v65-productDisplay td b {font-weight: normal;}
+
+/* Name */
+a.productnamecolor.colors_productname {
+	color: #484848;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+a.productnamecolor.colors_productname:hover {
+	color: #f5a34e;
+	text-decoration: none;
+}
+
+/* Our Price TEXT */
+.colors_productprice,
+font.pricecolor.colors_productprice font.text.colors_text b {
+	color: #484848;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+/* Sale PRICE/TEXT / Our Price PRICE */
+br + b font.pricecolor.colors_productprice {
+	color: #F5A34E;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* Email better price */
+a.pricecolor.colors_productprice {
+	color: #F5A34E;
+}

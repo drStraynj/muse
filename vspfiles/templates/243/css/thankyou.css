@@ -1,0 +1,6 @@
+
+img[src$="/Icon_Receipt.gif"],
+img[src$="/Icon_PackageTracking.gif"] {
+	display: block;
+	margin: 15px 15px 0 0;
+}

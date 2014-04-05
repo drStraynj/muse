@@ -1,0 +1,527 @@
+/*****************************
+* *    	    FONTS 	 	   * *
+*****************************/
+/* * * REGULAR * * */
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/playfairdisplay-reg.eot');
+    src: url('../fonts/playfairdisplay-reg.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/playfairdisplay-reg.svg') format('svg'),
+         url('../fonts/playfairdisplay-reg.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+/* * * BOLD * * */
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/playfairdisplay-bold.eot');
+    src: url('../fonts/playfairdisplay-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/playfairdisplay-bold.svg') format('svg'),
+         url('../fonts/playfairdisplay-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+/* * * NORMAL * * */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/sourcesanspro-regular.eot');
+    src: url('../fonts/sourcesanspro-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-regular.svg') format('svg'),
+         url('../fonts/sourcesanspro-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/sourcesanspro-regularitalic.eot');
+    src: url('../fonts/sourcesanspro-regularitalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-regularitalic.svg') format('svg'),
+         url('../fonts/sourcesanspro-regularitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+/* * * SEMI-BOLD * * */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/sourcesanspro-semibold.eot');
+    src: url('../fonts/sourcesanspro-semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-semibold.svg') format('svg'),
+         url('../fonts/sourcesanspro-semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/sourcesanspro-semibolditalic.eot');
+    src: url('../fonts/sourcesanspro-semibolditalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-semibolditalic.svg') format('svg'),
+         url('../fonts/sourcesanspro-semibolditalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+/* * * BOLD * * */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/sourcesanspro-bold.eot');
+    src: url('../fonts/sourcesanspro-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-bold.svg') format('svg'),
+         url('../fonts/sourcesanspro-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/sourcesanspro-bolditalic.eot');
+    src: url('../fonts/sourcesanspro-bolditalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-bolditalic.svg') format('svg'),
+         url('../fonts/sourcesanspro-bolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+/*****************************
+* *    	    GLOBALS 	 	 * *
+*****************************/
+body {
+	background: #fff;
+	color: #545454;
+	font-family:'Source Sans Pro', Arial, Sans-Serif !important;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p {margin:0 0 5px;padding:0;color:#484848;line-height:1.5em;}
+h1 {
+	font:400 36px 'Fairplay Display', Georgia, Serif;
+	color:#000;
+}
+h2 {
+	font-weight:400;
+	font-size:29px;
+}
+h3 {
+	font-size:18px;
+	font-weight:600;
+	text-transform: uppercase;
+}
+h4 {
+	font-size:16px;
+	font-weight:600;
+	text-transform: uppercase;
+	color:#000;
+}
+h5, h6 {
+	font-size:16px;
+	font-weight:600;
+	text-transform: uppercase;
+}
+p {
+	color:#545454;
+	font-size:12px;
+	line-height:23px;
+}
+ul {
+	margin:0 0 0 20px;
+	padding:0;
+	color:#555;
+}
+/*****************************
+* *   	    HEADER	       * *
+*****************************/
+header {
+	min-height: 92px;
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+}
+/*****************************
+* *   	     LOGO   	   * *
+*****************************/
+#display_homepage_title a {
+	background: url(../images/template/header_bg.gif) no-repeat center center;
+	display: block;	
+	text-align: left;
+	text-indent: -9999px;
+	float:left;
+	padding:31px 0 10px 0;
+	width:485px;
+	min-height:51px;
+}
+#display_homepage_title a#homepage_title {
+	color: #000;
+	font:700 23px 'Playfair Display', Georgia, Serif;
+	min-height:41px;
+	padding:31px 0 20px 0;
+	text-decoration: none;
+	text-align: center;
+	text-indent: 0;
+	text-transform: uppercase;
+}
+/*****************************
+* *   	  SITE TOOLS	   * *
+*****************************/
+.siteTools {
+	color: #000;
+	display: block;
+	font:400 11px/15px 'Source Sans Pro', Arial, Sans-Serif;
+	list-style: none;
+	margin: 0;
+	padding: 42px 0 10px 7px;
+	width:232px;
+	min-height:15px;
+	float:left;
+	text-transform: uppercase;
+}
+.siteTools a {
+	color: #000;
+	letter-spacing:0.04em;
+	font:400 11px/15px 'Source Sans Pro', Arial, Sans-Serif;
+	margin:0 10px;
+	display:inline-block;
+}
+.siteTools .cartDiv a {
+	margin:0;
+	letter-spacing:0;
+}
+.siteTools a:hover {
+	color: #e9616e;
+	text-decoration: none;
+}
+.siteTools .wishlist {
+	background:url('../images/template/icon-star.jpg') 0 2px no-repeat;
+	padding:0 0 0 14px;
+}
+.siteTools .cart {
+	font-weight:700;
+	color:#e9616e;
+	background:url('../images/template/icon-cart.jpg') 0 -1px no-repeat;
+	padding:0 0 0 15px;
+}
+.siteTools .cartDiv li {float: none;}
+.siteTools .cartDiv li a:hover {
+	text-decoration: underline;
+}
+/*****************************
+* *   	 SHOPPING CART	   * *
+*****************************/
+.siteTools li.cartWrap {
+	color: #484848;
+	font-size: 12px;
+	padding-left: 25px;
+	position: relative;
+}
+.siteTools li.cartWrap:hover {
+	color: #f5a34e;
+}
+.siteTools li.cartWrap a.cart {
+	background: url(../images/template/cart.png) no-repeat 6px 0;
+	color: #484848;
+	display: block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+#display_cart_summary, .cartsummary_full, .cartsummary_empty {display: inline;}
+#display_cart_summary a {display: none !important;}
+
+/*****************************
+* *   	    SEARCH	       * *
+*****************************/
+.search {
+    width:220px;
+    height:27px;
+    float:left;
+    padding:33px 15px 0 0;
+}
+.search form {
+	position:relative;
+}
+.search .input {
+	background: #fff;
+	display: block;
+	border:none;
+    border-bottom: 1px solid #eeeeee;
+    color: #747474;
+    font:400 12px/26px 'Source Sans Pro', Sans-Serif;
+    height: 26px;
+    padding: 0 38px 0 10px;
+    text-align: left;
+    width: 168px;
+}
+.search .input:focus {
+	border-color: #e9616e;
+}
+.search .input:hover::-webkit-input-placeholder,
+.search .input:focus::-webkit-input-placeholder {
+	color: #e9616e;
+}
+.search .input:hover:-moz-placeholder,
+.search .input:focus:-moz-placeholder {
+	color: #e9616e;
+}
+.search .input:hover::-moz-placeholder,
+.search .input:focus::-moz-placeholder {
+	color: #e9616e;
+}
+.search .input:hover:-ms-input-placeholder,
+.search .input:focus:-ms-input-placeholder {
+	color: #e9616e;
+}
+.search .submit {
+	display: block;
+    background: url('../images/template/search-bg.jpg') right bottom no-repeat;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size:0;
+    height: 13px;
+    padding: 0;
+    position: absolute;
+    right: 5px;
+    text-align: center;
+    top: 6px;
+    width: 13px;
+}
+/*****************************
+* *   	TOP NAVIGATION	   * *
+*****************************/
+.topNav {
+	min-height: 49px;
+	margin: 0 auto;
+	width: 960px;
+	border-top:1px solid #e0e0e0;
+	border-bottom:1px solid #e0e0e0;
+}
+/*****************************
+* *   	LEFT NAVIGATION	   * *
+*****************************/
+.pageWrap.leftNavOn .leftNav {
+	display: block;
+}
+.leftNav {
+	display: none;
+	float: left;
+	width: 150px;
+	margin:0 20px 0 15px;
+}
+.leftNav .menuTitle {
+	margin: 20px 0 7px;
+	padding:0;
+	color:#000;
+	font:600 13px/15px 'Source Sans Pro', Arial, Sans-Serif;
+	text-transform: uppercase;
+	letter-spacing:0.02em;
+}
+.leftNav .menuTitle:first-child {
+	margin-top: 0;
+	padding-top: 0;
+}
+.leftNav .menuTitle:empty {
+	display: none;
+}
+/* PROMOTION */
+#display_promotions_999 {
+	margin: 20px 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+#display_promotions_999 .promo {margin: 0 auto 10px;}
+/*****************************
+* *   	    CONTENT   	   * *
+*****************************/
+.content {
+	margin: 30px auto 100px;
+	width: 960px;
+}
+.pageWrap.leftNavOn #content_area {
+	float: right;
+	padding: 0 15px 0 0 !important;
+	width: 760px;
+}
+#content_area {
+	width: 940px;
+	padding:0 10px !important;
+}
+#content_area table {
+	text-align: left;
+}
+/*****************************
+* *   	    FOOTER	       * *
+*****************************/
+footer {
+	color: #000;
+	border-top:1px solid #e3e3e3;
+	font-size: 11px;
+	margin: 0 auto;
+	width: 960px;
+	padding:27px 0 100px 0;
+}
+footer a {
+	color: #545454;
+}
+footer a:hover {
+	color: #e9616e;
+	text-decoration: none;
+}
+/* --- SITE LINKS --- */
+.site-links {
+	padding:0 0 0 18px;
+}
+footer .column {
+	float:left;
+}
+footer .column.one {width:133px;margin:0 20px 0 0;}
+footer .column.two {width:142px;margin:0 20px 0 0;}
+footer .column.three {width:143px;margin:0 20px 0 0;}
+footer .column.four {width:188px; margin:0 20px 0 0;}
+footer .column.five {width:253px;}
+
+footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+footer li {
+	line-height:16px;
+	padding:0 0 5px;
+}
+footer .title {
+	text-transform: uppercase;
+	line-height:20px;
+	font-weight:600;
+	color:#000;
+	margin:0 0 6px;
+	letter-spacing:0.05em;
+}
+/* --- ELIST SIGNUP --- */
+.elist {
+	position: relative;
+}
+footer .elist .title {
+	margin:0 0 10px;
+	letter-spacing:0;
+}
+.elist .input {
+	background: #fff;
+	display: block;
+    border: 1px solid #e3e3e3;
+    color: #4d4d4d;
+	font:400 12px 'Source Sans Pro', Sans-Serif;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 38px 0 7px;
+    text-align: left;
+    width: 185px;
+    margin:0 0 0 2px;
+}
+.elist .input:focus {
+	border-color: #e9616e;
+}
+.elist .input:hover::-webkit-input-placeholder,
+.elist .input:focus::-webkit-input-placeholder {
+	color: #e9616e;
+}
+.elist .input:hover:-moz-placeholder,
+.elist .input:focus:-moz-placeholder {
+	color: #e9616e;
+}
+.elist .input:hover::-moz-placeholder,
+.elist .input:focus::-moz-placeholder {
+	color: #e9616e;
+}
+.elist .input:hover:-ms-input-placeholder,
+.elist .input:focus:-ms-input-placeholder {
+	color: #e9616e;
+}
+.elist .submit {
+	display: block;
+    background:url('../images/template/elist-submit.jpg') 0 0 no-repeat;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0;
+    height:22px;
+    padding: 0;
+    position: absolute;
+    right: 20px;
+    text-align: center;
+    bottom: 1px;
+    width: 25px;
+}
+.elist .submit:hover {
+    background:url('../images/template/elist-submit.jpg') -25px 0 no-repeat;	
+}
+/* --- SOCIAL ICONS --- */
+.social {
+	margin:34px 0 0 0;
+}
+.social .title {
+	float:left;
+	margin:0 15px 0 4px;
+	letter-spacing:0;
+}
+.social a {
+	float:left;
+	width:21px;
+	height:21px;
+	margin:0 8px 0 0;
+	display:block;
+	text-indent: -9999px;
+	background:url('../images/template/social-bg.jpg') 0 0 no-repeat;
+	opacity:1;
+}
+.social a.twitter {background:url('../images/template/social-bg.jpg') -29px 0 no-repeat;margin:0 6px 0 0;}
+.social a.pinterest {background:url('../images/template/social-bg.jpg') -56px 0 no-repeat;margin:0;}
+.social a:hover {opacity:0.8;}
+/*****************************
+* *   	   ADDENDUM	   * *
+*****************************/
+.addendum {
+	border-top:1px solid #e3e3e3;
+	margin-top:27px;
+	padding:21px 0 0;
+}
+/* --- SEALS --- */
+.seals {
+	float:left;
+	width:340px;
+}
+.seals .seal {
+	float:left;
+	display:block;
+}
+.seal.vsecure {
+	margin:0 17px 0 13px;
+}
+.seal.cc {
+	margin:6px 27px 0 0;
+}
+/* --- COPYRIGHT --- */
+.copyright {
+	float:left;
+	color:#999;
+	line-height:18px;
+	padding:7px 0 0;
+	width:620px;
+}
+.copyright a {
+	color:#999;
+}
+.copyright a:hover {
+	color:#e9616e;
+}
+/*****************************
+* *      NO JS WARNING     * *
+******************************/
+#no-js-notice {
+  background: #333333;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 auto;
+  padding:0;
+  text-align: center;
+  width: 100%;
+}

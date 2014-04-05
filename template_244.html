@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if !IE]><!--> <html dir="ltr" class="no-js" lang="en-US"><!--<![endif]-->
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,width=1120" name="viewport">
+	<meta id="v65-layout-mode" data-cart="storedot" data-checkout="storedot" data-use-simplified-checkout="true">
+	<meta id="v65-logo-dimensions" data-height="50" data-width="550">
+	<link href="v/vspfiles/templates/244/css/Imports.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<script src="v/vspfiles/templates/244/js/html5shiv.js"></script>
+	<![endif]-->
+	<script src="v/vspfiles/templates/244/js/dtk_min.js"></script>
+	<script>DTK.loadCSS("244");</script>
+
+	<script>
+		$(document).ready(function() {
+			if($('#display_homepage_title a').is('#homepage_title')) {
+				// $('header').find('span.slogan').addClass('flushLeft');
+				$('html').addClass('flushLeft');
+			}
+		});
+	</script>
+</head>
+
+<!-- #################### FREE TEMPLATE INFO Cherish-KL-AM-07242013 #################### -->
+
+<body>
+    <noscript id="no-js-notice">
+	    To take full advantage of this site, please enable your browser's JavaScript feature.
+	    <a href="http://launchpad.volusion.com/kb_results.asp?ID=42" target="_blank">Learn how</a>
+    </noscript>
+
+	<!-- 
+	* * * * * * * * * *   N O T E   * * * * * * * * * * 
+	TO TURN LEFT NAV ON, ADD .leftNavOn TO .pageWrap 
+	E.G. <div class="pageWrap leftNavOn"> 
+    -->
+
+	<div class="pageWrap">
+		<header>
+			<div id="if_homepage">
+				<h1 id="display_homepage_title"><a href="Config_FullStoreURL" title=""></a></h1>
+			</div><!--if_homepage-->
+
+			<div id="if_not_homepage">
+				<div id="display_homepage_title"><a href="Config_FullStoreURL" title=""></a></div>
+			</div>
+
+			<span class="slogan" data-v-edit-region="Slogan">slogan here</span>
+
+			<div class="cartWrap">
+				<span class="anchor" data-v-anchor="cart"></span>
+				<a class="cart" href="/shoppingcart.asp" title="View Your Cart">CHECKOUT (<span data-v-observable="cart-count">0</span>)</a>
+			</div>
+
+			<ul class="siteTools" data-v-edit-region="Header Links">
+				<li><a href="/myaccount.asp" title="My Account">My Account</a></li>
+				<li><a href="/login.asp" title="Log In">Log In</a></li>
+				<li><a href="mailto:Config_EmailAddress_From?Subject=Contact%20Us" title="Contact Us">Contact Us</a></li>
+			</ul>
+
+			<div class="search">
+				<form action="/SearchResults.asp" method="get" name="SearchBoxForm">
+					<input type="text" name="Search" class="input transition" placeholder="Search our store">
+					<input type="submit" name="Submit" class="submit" value="GO">
+				</form>
+			</div>
+		</header>
+
+		<div class="topNav">
+			<nav id="display_menu_1" class="menu"></nav>
+		</div>
+
+		<a href="/articles.asp?ID=57" class="shippingDeal" data-v-edit-region="Shipping Deal">
+			<span class="uppercase">Receive free standard shipping</span> - On orders over $100 - Use code <span class="highlight">VINTAGE</span> at Checkout
+		</a>
+
+		<div id="if_homepage">
+			<link rel="stylesheet" href="/v/vspfiles/templates/244/css/homepage.css">
+		</div>
+
+		<div class="content clear">
+			<aside class="leftNav">
+				<div class="menuTitle" style="color:Menu2_Title_TextColor; background-color:Menu2_Title_BgColor;">Menu2_Title</div>
+				<nav id="display_menu_2" class="menu"></nav>
+
+	            <div class="menuTitle" style="color:Menu3_Title_TextColor; background-color:Menu3_Title_BgColor;">Menu3_Title</div>
+				<nav id="display_menu_3" class="menu"></nav>
+	            
+	            <div class="menuTitle" style="color:Menu4_Title_TextColor; background-color:Menu4_Title_BgColor;">Menu4_Title</div>
+	            <nav id="display_menu_4" class="menu"></nav>
+	            
+				<!--
+	            <div class="menuTitle" style="color:Menu5_Title_TextColor; background-color:Menu5_Title_BgColor;">Menu5_Title</div>
+	            <nav id="display_menu_5" class="menu"></nav>
+	            
+	            <div class="menuTitle" style="color:Menu6_Title_TextColor; background-color:Menu6_Title_BgColor;">Menu6_Title</div>
+	            <nav id="display_menu_6" class="menu"></nav>
+	            
+	            <div class="menuTitle" style="color:Menu7_Title_TextColor; background-color:Menu7_Title_BgColor;">Menu7_Title</div>
+	            <nav id="display_menu_7" class="menu"></nav>
+	            
+	            <div class="menuTitle" style="color:Menu8_Title_TextColor; background-color:Menu8_Title_BgColor;">Menu8_Title</div>
+	            <nav id="display_menu_8" class="menu"></nav>
+	            -->
+
+				<div id="display_promotions_999"></div>
+			</aside> <!-- .leftNav -->
+			
+			<div id="content_area">
+
+			</div> <!-- #content_area -->
+		</div> <!-- .content -->
+
+
+		<div class="newsletter clear">
+			<span class="elistText" data-v-edit-region="Newsletter Text">Keep up to date with new arrivals &amp; latest looks:</span>
+			<div class="elist">
+				<form name="MailingList" method="post" action="/MailingList_subscribe.asp">
+					<input type="text" class="input transition" name="emailaddress" placeholder="Enter email address">
+					<input type="submit" name="Submit" class="submit" value="Go">
+				</form>
+			</div>
+			<span class="socialText">Connect With Us</span>
+			<div class="social" data-v-edit-region="Social Media">
+				<a href="https://www.facebook.com/Volusion" class="fb" target="_blank">Facebook</a>
+				<a href="https://twitter.com/volusion" class="tw" target="_blank">Twitter</a>
+				<a href="https://www.blogger.com/" class="bl" target="_blank">Blogger</a>
+				<a href="http://pinterest.com/volusion/" class="pin" target="_blank">Pinterest</a>
+			</div>
+		</div>
+
+		<footer class="clear">
+			<div class="about" data-v-edit-region="About Us"><span class="title">About Our Store</span>
+			<p>It all started with a great idea and a little hard work. Today we're proud to provide quality products direct to your doorstep through an experience you'll enjoy. And most of all, we hope you'll enjoy the products as much as we do.</p></div>
+			
+			<div class="linksWrap" data-v-edit-region="Quick Links">
+				<span class="title">Quick Links</span>
+				<ul class="left">
+				    <li><a href="/terms.asp" title="Terms and Conditions">Terms &amp; Conditions</a></li>
+				    <li><a href="/terms_privacy.asp" title="Privacy Policy">Privacy Policy</a></li>
+				    <li><a href="/pindex.asp" title="Product Index">Product Index</a></li>
+				    <li><a href="/cindex.asp" title="Category Index">Category Index</a></li>
+				</ul>
+
+				<ul class="right">
+				    <li><a href="/articles.asp?ID=57" title="Shipping Policy">Shipping</a> &amp; <a href="/returns.asp" title="Returns Policy">Returns</a></li>
+				    <li><a href="/myaccount.asp" title="My Account">My Account</a></li>
+				    <li><a href="/login.asp" title="Log In">Log In</a></li>
+				    <li><a href="/shoppingcart.asp" title="View Your Cart">View Cart</a></li>
+				</ul>
+			</div>
+
+			<ul class="contactWrap" data-v-edit-region="Contact Information">
+				<li><span class="title">Get In Touch</span></li>
+				<li>Toll Free 888-555-1234</li>
+				<li>Email <a href="mailto:Config_EmailAddress_From?Subject=Contact%20Us" title="info@company.com">info@company.com</a></li>
+				<li>Fax 888-555-1234</li>
+				<li><a href="/help.asp" title="Frequently Asked Questions">Help/FAQ</a></li>
+			</ul>
+			
+			<ul class="icons" data-v-edit-region="Icons">
+				<li><a href="javascript:void(0);" onclick="window.open('https://www.volusion.com/ssl.asp?url=www.YourDomain.com', 'VolusionSSL', 'top=10,left=10,menubar=0,resizable=0,scrollbars=0,width=467,height=467')"><img src="v/vspfiles/templates/244/images/template/vsecure.png" alt=""></a></li>
+				<li><img src="v/vspfiles/templates/244/images/template/cc.png" alt=""></li>	    
+			</ul>
+		</footer>
+		
+		<div class="copyright">
+			<!-- VOLUSION LINK - BEGIN
+			Customer has agreed per Volusion's Terms of Service (http://www.volusion.com/agreement_monthtomonth.asp) to maintain a text hyperlink to "http://www.volusion.com" in the footer of the website. The link must be standard html, contain no javascript, and be approved by Volusion. Removing this link breaches the Volusion agreement. -->
+			<a href="/terms.asp">Copyright &copy; <span class="insertYear">2013</span> Config_CompanyNameLegal. All Rights Reserved.</a> 
+
+			<span id="if_homepage">
+	        	Built by <a href="http://www.volusion.com" title="Shopping Cart Software" target="_blank">Volusion</a>.
+	        </span>
+
+	        <span id="if_not_homepage">
+	        	Built by <a href="http://www.volusion.com" title="Shopping Cart Software" target="_blank" rel="nofollow">Volusion</a>.
+	        </span>
+		</div> <!-- .copyright -->
+	</div> <!-- .pageWrap -->
+</body>
+</html>

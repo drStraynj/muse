@@ -1,0 +1,294 @@
+/*--- PAGE HEADING ---*/
+h2#v65-onepage-header {
+	margin: 12px 0 18px 5px;
+	font-size: 24px;
+	font-weight: 400;
+	color:#fff;
+}
+
+/*--- LOGIN LINK --*/
+#v65-onepage-header .loginHeaderWrapper {
+	font-size: 12px;
+	font-weight: 400;
+}
+
+#v65-onepage-header .loginHeaderWrapper a {
+	color: #e0b900;
+}
+
+/*-- LOGIN MODAL --*/
+#simpleModal #simpleModalContent {
+	background-color: #1b2023;
+}
+
+#simpleModal #simpleModalClose {
+	font-weight: normal;
+	color: #fff;
+}
+
+#simpleModal #loginModal input {
+	border-radius: 0;
+}
+
+#loginModal .loginTitle {
+	font-weight: 600 !important;
+	margin-bottom: 15px !important;
+}
+
+#loginModal .loginMessage {
+	font-weight: normal;
+	color: #a0a0a0;
+	margin-bottom: 15px !important;
+}
+
+#loginModal .loginForgotPassword {
+	margin-top: 12px !important;
+}
+
+#loginModal .grayButton,
+#loginModal .darkGrayButton {
+	width: 88px;
+	height: 30px;
+	padding: 0;
+	font-size: 13px;
+	font-weight: bold;
+	border-radius: 0;
+	float: right;
+	text-shadow: 0 -1px 0 #fff;
+	text-align: center;
+	margin-left: 18px;
+	color:#000;
+	border: none;
+	line-height: 30px;
+	cursor: pointer;
+	overflow: hidden;
+	background: #ebbb38; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ebbb38 0%, #dc9b2e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebbb38), color-stop(100%,#dc9b2e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ebbb38 0%,#dc9b2e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ebbb38 0%,#dc9b2e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ebbb38 0%,#dc9b2e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ebbb38 0%,#dc9b2e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebbb38', endColorstr='#dc9b2e',GradientType=0 ); /* IE6-9 */
+
+}
+
+#loginModal .grayButton {
+	float: left;
+	cursor: pointer;
+	background: #d3d6d9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d3d6d9 0%, #aab0b3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d3d6d9), color-stop(100%,#aab0b3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d3d6d9 0%,#aab0b3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d3d6d9 0%,#aab0b3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d3d6d9 0%,#aab0b3 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #d3d6d9 0%,#aab0b3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3d6d9', endColorstr='#aab0b3',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+
+/*--- LABEL TEXT ---*/
+td#v65-onepage-ordercomments-value, /*Comments label*/
+table#v65-onepage-ContentTable td, /*Label*/
+table#v65-onepage-ContentTable td font /*Asterisk*/ {
+	color: #a0a0a0;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+/*--- INPUTS AND SELECTS ---*/
+table#v65-onepage-Detail td input,
+table#v65-onepage-Detail td select {
+	background: #fff !important;
+	border: 1px solid #8b8c8d !important;
+	color:#666666;
+	font-weight: normal;
+}
+
+/*--- TABLE CHECKOUT SUMMARY ---*/
+
+/*Heading background-color*/
+#v65-onepage-cartsummary-header {	
+	background-color: #242a2d !important;
+}
+
+/*Order summary table background color*/
+#table_checkout_cart0,
+#v65-onepage-CartSummary {
+	background: #242a2d !important;
+}
+
+#v65-onepage-ordersummary-items {
+	background: none !important;
+}
+
+/*Heading text*/
+#v65-onepage-cartsummary-label {
+	font-size: 15px !important;
+	font-weight: 400 !important;
+	color: #FFF;
+	text-transform: uppercase;
+	padding-top: 11px !important;
+	padding-left: 15px !important;
+}
+
+
+/*--- CART DETAILS ---*/
+
+#v65-onepage-ordersummary-items td, /*Items, qty, total text*/
+b.v65-onepage-shippingcost-label /*shipping, tax, subtotal text*/ {
+	font-weight: 400 !important;
+	font-size: 11px !important;
+	color: #a0a0a0 !important;
+}
+
+/*Items, qty, total titles*/ 
+#v65-onepage-ordersummary-header-row td {
+	color: #a0a0a0 !important;
+	font-weight: 400 !important;
+	text-transform: uppercase;
+}
+
+b.v65-onepage-shippingcost-amount, /*Subtotal boldness*/
+#v65-onepage-ShippingCostDetails .carttext /*Shipping & handling and tax price colors*/ {
+	color: #a0a0a0 !important;
+	font-weight: 400 !important;
+}
+
+.v65-onepage-ordersummary-itemtotal {
+	text-align: right;
+}
+
+/*Border above total*/
+#v65-onepage-summary-total-line, 
+.v65-onepage-summary-total-line-cell {
+	border-bottom: 1px solid #4c5052 !important;
+}
+
+/*Total text*/
+span#TotalsTotalTD {
+	color: #cccccc;
+	font-size: 18px !important;
+	font-weight: 400 !important;
+}
+
+/*Gift card text*/
+td#v65-apply-gift-newCell a[style="color:#0000CC;font-weight:bold;"] {
+	color: #a0a0a0 !important;
+	font-size: 12px !important;
+	font-weight: normal !important;
+}
+
+/*Textarea border and background*/
+textarea#v65-onepage-ordercomments-input {
+	border: 1px solid #d2d2d2 !important;
+	background: #FFF !important;
+}
+
+/*--- CART DETAILS BORDERS ---*/
+
+/*Border bottom*/
+#table_checkout_cart0 tr#v65-cart-button-submit-row > td {
+	padding-bottom: 6px;
+}
+
+#v65-onepage-editcart {
+	font-weight: 400 !important;
+	font-size: 11px !important;
+	text-decoration: none !important;
+}
+
+/*Border left and right*/
+#table_checkout_cart0 > tbody > tr > td {
+	border-left: none;
+    border-right: none;
+}
+
+/*Edits border for Heading ONLY*/
+#table_checkout_cart0 > tbody > tr:first-child > td {border: none;}
+
+/* * * * * * FIXES * * * * * */
+/*REMOVES BORDERS FROM RADIO BUTTONS*/
+table#v65-onepage-Detail td input[type=radio] {border:none !important; background: none !important;}
+#table_checkout_cart0 {margin-top: 5px !important;}
+
+/* SHIPPING LINK */
+#v65-onepage-ShippingCostParent #v65-onepage-CopyBillingToShippingLink { font-weight: normal; color: #fff !important; }
+
+#content_area {
+  padding: 15px !important;
+  width: 970px !important;
+  background: none;
+}
+
+#leftNav {
+  display: none !important;
+}
+
+
+
+/* --- Gives Shipping Drop-Down Static Width and Aligns with Rest of Inputs --- */
+#v65-onepage-ShippingCostHeader + tr,
+#v65-onepage-ShippingCostHeader + tr > td:first-child {display: block;}
+
+#v65-onepage-ShippingCostHeader + tr > td:first-child div[align="center"] {text-align: left;}
+
+#DisplayShippingSpeedChoicesTD select {
+    padding: 6px 4px;
+    width: 172px;
+    margin-left: 107px;
+}
+
+
+
+
+/* --- Fixes Alignment of all fields on checkout --- */
+
+/* Container for Subtotal, Shipping, Tax */
+#content_area #TotalsDivContainer {float: none;}
+
+/* Shipping Information label alignment */
+td#v65-onepage-ShippingParent {padding-left: 0 !important;}
+#v65-onepage-Shipping td.v65-onepage-shipping-label-cell div {text-align: right !important;}
+#v65-onepage-Shipping td.v65-onepage-shipping-label-cell {width: 105px;}
+#ship-to-options-table div[align="right"] {text-align: right;}
+
+/* "My Saved Billing Addresses" */
+#v65-onepage-saved-billing-table font[style*="font-weight: bold;"] {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal !important;
+	line-height: 14px !important;
+	padding-right: 2px;
+	text-align: right;
+	vertical-align: top;
+	width: 91px;
+}
+
+/* "My Saved Billing Addresses" select */
+select[onchange*="Choose_My_Saved_Billing"] {width: 175px;}
+
+/* Credit Cart label and input alignment */
+#content_area td.v65-payment-details-label-cell[width="39%"] {width: 105px;}
+
+#content_area #savedPayment,
+#content_area td.v65-payment-details-label-cell[width="39%"] + td[width="61%"] {
+	width: auto;
+}
+
+table#v65-onepage-registration td {white-space: nowrap;}
+
+/* Override width and margin for left side container */
+#content_area #v65-onepage-ContentTable {
+	margin: 0;
+	border-spacing: 0;
+}
+
+/* Heading image */
+.v65-onepage-headerShort img {display: block;}
+
+/* Cart Summary redundant bkg colors */
+#table_checkout_cart0 #v65-onepage-CartSummary,
+#table_checkout_cart0 #v65-onepage-ordersummary-items {background: none;}
